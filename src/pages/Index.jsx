@@ -26,6 +26,8 @@ const Index = () => {
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold mb-6 text-center">China's Rich History</h1>
       
+      <p className="text-lg text-center mb-8">Explore the fascinating journey of one of the world's oldest civilizations, from ancient times to the modern era.</p>
+      
       <div className="grid md:grid-cols-2 gap-8">
         <div>
           <h2 className="text-2xl font-semibold mb-4">Key Historical Periods</h2>
@@ -71,11 +73,6 @@ const Index = () => {
             <TimelineEvent year="2001" event="China joins the World Trade Organization" />
           </ScrollArea>
         </div>
-      </div>
-      
-      <div className="mt-8 text-center">
-        <p className="text-lg">Explore the fascinating journey of one of the world's oldest civilizations, from ancient times to the modern era.</p>
-        <img src="/placeholder.svg" alt="Great Wall of China" className="mx-auto object-cover w-full h-[300px] mt-4 rounded-lg" />
       </div>
     </div>
   );
