@@ -1,4 +1,4 @@
-import { Home } from "lucide-react";
+import { History } from "lucide-react";
 import Index from "./pages/Index.jsx";
 
 /**
@@ -6,9 +6,9 @@ import Index from "./pages/Index.jsx";
  */
 export const navItems = [
   {
-    title: "Home",
+    title: "China's History",
     to: "/",
-    icon: <Home className="h-4 w-4" />,
+    icon: <History className="h-4 w-4" />,
     page: <Index />,
   },
 ];
