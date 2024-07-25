@@ -33,11 +33,6 @@ const Index = () => {
           <h2 className="text-2xl font-semibold mb-4">Key Historical Periods</h2>
           <ScrollArea className="h-[600px] rounded-md border p-4">
             <HistoricalPeriod
-              title="Ancient China"
-              years="c. 2100 BCE - 221 BCE"
-              description="This period includes the Xia, Shang, and Zhou dynasties. It saw the development of Chinese writing, philosophy, and the foundations of Chinese culture."
-            />
-            <HistoricalPeriod
               title="Imperial China"
               years="221 BCE - 1912 CE"
               description="Beginning with the Qin dynasty and ending with the fall of the Qing dynasty. This era saw numerous technological advancements, the construction of the Great Wall, and the flourishing of arts and literature."
